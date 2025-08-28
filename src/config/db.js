@@ -10,3 +10,4 @@ module.exports = async () => {
   mongoose.connection.on('connected', () => console.log('🗄️  Mongo connected'));
   mongoose.connection.on('error', (err) => console.error('Mongo error', err));
 };
+// lkjsfslkjfdsf
